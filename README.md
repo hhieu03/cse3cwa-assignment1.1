@@ -1,9 +1,31 @@
 Project: Assignment 1 — Tabs Generator (CSE3CWA)
 
-Run: npm install npm run dev # Turbopack dev server at http://localhost:3000
+Update: Feature 2 – Theme & Hamburger Menu
 
-Tech: Next.js + TypeScript + App Router, Turbopack dev.
+Theme Toggle (Dark / Light / Extra)
 
-Reason No Tailwind: Output inline CSS, no class.
+Users can switch between Dark mode, Light mode, and an additional theme.
 
-Roadmap: Phase 1 (Header/Nav/Footer/About), Phase 2 (Themes), Phase 3 (Tabs + Output).
+Theme state is saved during the session.
+
+**Hamburger Menu**
+
+Visible on small screens (mobile/tablet).
+
+Opens and closes via hamburger button.
+
+Includes smooth CSS transform animation.
+
+**Technical Details**
+
+Implemented in a separate branch: feature-2-theme-menu.
+
+Independent from Feature 1 implementation.
+
+Code tested and working without errors.
+
+**How to Use**
+
+Click the 🌗 Theme button to change theme.
+
+On small screens, click the ☰ Hamburger button to open/close the navigation menu.
